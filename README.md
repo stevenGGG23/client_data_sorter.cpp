@@ -18,7 +18,8 @@ This C++ program is designed to read, sort, and display client data from a file.
 3. The program then sorts the array using the bubble sort algorithm based on the client names.
 4. After sorting, the program displays the sorted list with the client's name, pet, and balance in a neatly formatted manner using `iomanip` for proper alignment.
 
-bash,,, 
+```bash
+   g++ client_data_sorter.cpp -o client_data_sorter
 --------------------------------------------
 ABledsoe     Python                 $432.32
 BSinard      Poodles                $880.50
